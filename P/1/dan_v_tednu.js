@@ -1,17 +1,17 @@
 function dan_v_tednu(dan) {
     if (dan === 0) {
-        return "Nedelja";
+        return "nedelja";
     } else if (dan === 1) {
-        return "Ponedeljek";
+        return "ponedeljek";
     } else if (dan === 2) {
-        return "Torek";
+        return "torek";
     } else if (dan === 3) {
-        return "Sreda";
+        return "sreda";
     } else if (dan === 4) {
-        return "Četrtek";
+        return "četrtek";
     } else if (dan === 5) {
-        return "Petek";
+        return "petek";
     } else {
-        return "Sobota";
+        return "sobota";
     }
 }
